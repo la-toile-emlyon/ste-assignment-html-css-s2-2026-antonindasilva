@@ -14,6 +14,19 @@ a{
     text-decoration: none;
 }
 
+h1{
+    font-family: "Montserrat",sans-serif;
+    font-size: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+i{
+    color:#C8A27A ;
+}
+
 /* ------------------------------
             TEXTES
  ---------------------------------*/
@@ -39,12 +52,26 @@ a{
 }
 
 .black{
-    color: #636363;
+    color: #3E2C23;
 }
 
 .lato{
     font-family: "Lato",sans-serif;
 }
+
+.montserrat{
+    font-family: "Montserrat",sans-serif;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
 
 /* ------------------------------
             LARGEURS
@@ -79,6 +106,11 @@ a{
     width: 10%;
 }
 
+.img-100{
+    width: 100%;
+    height: 200px;
+}
+
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
@@ -90,6 +122,10 @@ a{
 
 .space-between{
     justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .align-center{
@@ -112,6 +148,10 @@ a{
     gap: 32px;
 }
 
+.largeur-card{
+    width: calc(50% - 16px) ;
+}
+
 /* ------------------------------
          MARGIN & PADDING 
  ---------------------------------*/
@@ -132,6 +172,14 @@ a{
 
 .mb-32{
     margin-bottom: 32px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
 }
 
 .mt-128{
@@ -212,6 +260,14 @@ a{
     background-color: #C8A27A;
 }
 
+.bg-hero{
+    background-image: url("asset/photographe/HERO2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    
+    
+}
 
 /*--------------
     BOUTON
@@ -222,5 +278,14 @@ a{
     background-color:black ;
     color: #FFFFFF;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.btn-white{
+     padding: 10px 30px;
+    background-color:#FFFFFF ;
+    color:#3E2C23 ;
+    display: inline-block;
+    font-size: 15px;
+
 }
