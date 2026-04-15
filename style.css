@@ -19,6 +19,10 @@ h1{
     font-size: 40px;
 }
 
+h1,h2,h3,p{
+    color: #3E2C23;
+}
+
 li{
     list-style: none;
 }
@@ -39,12 +43,20 @@ i{
     list-style-type: none; /*retirer la puces des listes */
 }
 
-.bold{
+.bold-800{
     font-weight: 800; /* mettre en gras */
+}
+
+.bold-600{
+    font-weight: 600;
 }
 
 .text-center{
     text-align: center; /* centrer le texte */
+}
+
+.texte-left{
+    text-align: left;
 }
 
 .uppercase{
@@ -53,6 +65,10 @@ i{
 
 .black{
     color: #3E2C23;
+}
+
+.beige{
+    color: #C8A27A;
 }
 
 .lato{
@@ -67,6 +83,10 @@ i{
     font-size: 20px;
 }
 
+.font-size-30{
+    font-size: 30px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -79,6 +99,10 @@ i{
 
 .w-100{
     width: 100%;
+}
+
+.w-90{
+    width: 90%;
 }
 
 
@@ -111,6 +135,14 @@ i{
     height: 200px;
 }
 
+.w-50g{
+    width: calc(50% - 8px);
+}
+
+.w30g{
+    width: calc(30% - 8px);
+}
+
 /* ------------------------------
             FLEXBOX
  ---------------------------------*/
@@ -118,6 +150,15 @@ i{
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
 }
 
 .space-between{
@@ -148,9 +189,11 @@ i{
     gap: 32px;
 }
 
-.largeur-card{
-    width: calc(50% - 16px) ;
+.column{
+    flex-direction: column;
 }
+
+
 
 /* ------------------------------
          MARGIN & PADDING 
@@ -190,6 +233,10 @@ i{
     margin-bottom: 128px;
 }
 
+.ml-16{
+    margin-left: 16px;
+}
+
 /* padding */
 
 
@@ -202,7 +249,7 @@ i{
 }
 
 .pb-32{
-    padding-bottom: 16px;
+    padding-bottom: 32px;
 }
 
 .pt-32{
@@ -213,12 +260,29 @@ i{
     padding-bottom: 32px;
 }
 
+.pb-64{
+    padding-bottom: 64px;
+}
+
+.pt-64{
+    padding-top: 64%;
+}
+
 .pt-128{
     padding-top: 128px;
 }
 
 .pb-128{
     padding-bottom: 128px;
+}
+
+.pl-card{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pl-card-beige{
+    padding: 12px;
 }
 
 /* ------------------------------
@@ -265,8 +329,19 @@ i{
     background-size: cover;
     background-repeat: no-repeat;
     height: 150vh;
-    
-    
+}
+
+.card{
+    background-color:#FFFFFF;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.card-beige{
+    background-color:#C8A27A;
+    width: 30%;
+    border-radius: 20px;
+
 }
 
 /*--------------
@@ -287,5 +362,13 @@ i{
     color:#3E2C23 ;
     display: inline-block;
     font-size: 15px;
+}
 
+
+/*-------------
+    POSITIONS
+---------------*/
+
+.fixed{
+    position: fixed;
 }
