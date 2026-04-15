@@ -106,6 +106,10 @@ i{
     width: 100%;
 }
 
+.w-max{
+    width: max-content;
+}
+
 .w-90{
     width: 90%;
 }
@@ -356,6 +360,12 @@ i{
     border-radius: 20px;
 }
 
+.card-avis{
+    background-color:#FFFFFF;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
 .card-beige{
     background-color:#C8A27A;
     width: 30%;
@@ -374,6 +384,7 @@ i{
     display: inline-block;
     font-size: 15px;
     font-family: "lato",sans-serif;
+    transition: 0.5;
 }
 
 .btn-white{
@@ -384,6 +395,27 @@ i{
     font-size: 15px;
 }
 
+.btn-contact{
+    padding: 10px 30px;
+    background-color:#C8A27A ;
+    color: #3E2C23;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "lato",sans-serif;
+}
+
+.btn-black:hover{
+    background-color: #debdac;
+    transform: scale(1.1);
+    box-shadow:0px 5px 15px #3E2C23;
+
+}
+
+.btn-white:hover{
+    transform: scale(1.1);
+    box-shadow:0px 5px 15px #3E2C23;
+}
+
 
 /*-------------
     POSITIONS
@@ -391,4 +423,12 @@ i{
 
 .fixed{
     position: fixed;
+}
+
+
+
+/*OVERFLOW*/
+
+.overflow{
+    overflow-x: scroll;
 }
