@@ -10,6 +10,11 @@
     box-sizing: border-box;  /* Ne change pas la taille de la boite si j'ajoute des paddings ou des broder. je garde le controle de ma boite.*/
 }
 
+input,textarea{
+    border: none;
+    padding: 8px 16px;
+}
+
 a{
     text-decoration: none;
 }
@@ -239,6 +244,10 @@ i{
 
 /* padding */
 
+.padding{
+    padding: 5px 10px;
+}
+
 
 .pb-16{
     padding-bottom: 16px;
@@ -331,6 +340,16 @@ i{
     height: 150vh;
 }
 
+.bg-hero-2{
+    background-image: url(asset/photographe/coming-soon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-input{
+    background-color: #d2baa5;
+}
+
 .card{
     background-color:#FFFFFF;
     width: 30%;
@@ -350,10 +369,11 @@ i{
 
 .btn-black{
     padding: 10px 30px;
-    background-color:black ;
-    color: #FFFFFF;
+    background-color:#C8A27A ;
+    color: #3E2C23;
     display: inline-block;
     font-size: 15px;
+    font-family: "lato",sans-serif;
 }
 
 .btn-white{
